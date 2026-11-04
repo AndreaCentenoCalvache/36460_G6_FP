@@ -2,7 +2,7 @@
    Enunciado: leer un año y determinar si es bisiesto.
    Un año es bisiesto si es divisible entre 4, excepto los divisibles
    entre 100, que solo lo son si también son divisibles entre 400.
-   Autor: Julián Hernández */
+   Elaborado por: Julián Hernández */
 
 #include <stdio.h>
 
