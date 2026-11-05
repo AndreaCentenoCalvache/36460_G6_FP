@@ -1,25 +1,31 @@
-#include <stdio.h>
+// Ejercicio 5
+// Realizado por: Abigail Quinga
 
-int main() {
-    int c, dias, horas, minutos, segundos, resto;
+#include <stdio.h> //Libreria
 
+int main() { //Inicio
+    int c, dias, horas, minutos, segundos;
+//Define la cantidad de segundos
     printf("Ingrese la cantidad de segundos: ");
     scanf("%d", &c);
-
-    if (c < 0) {
+// if es la primera condicion que se revisa
+    if (c < 0) { // Si c es menor que cero no se pueden convertir 
         printf("El numero de segundos debe ser mayor o igual a cero\n");
-    } else {
-        dias = c / 86400;
-        resto = c % 86400;
-        horas = resto / 3600;
-        resto = resto % 3600;
-        minutos = resto / 60;
-        segundos = resto % 60;
-
+// else es lo que pasa cuando la condicion de arriba no se cumplio
+    } else { //Si c es mayor entonces se puede convertir
+// Sacamos los dias y le resto al total
+        dias = c / 86400; 
+        c = c - dias * 86400; 
+//Sacamos las horas y le resto al total
+        horas = c / 3600;
+        c = c - horas * 3600;
+// Sacamos los minutos y los segundos que quedan
+        minutos = c / 60;
+        segundos = c - minutos * 60;
+//Se muestran los resultados 
         printf("Dias: %d\n", dias);
         printf("Horas: %d\n", horas);
         printf("Minutos: %d\n", minutos);
         printf("Segundos: %d\n", segundos);
     }
-    return 0;
-}
+} //Fin
