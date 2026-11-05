@@ -1,15 +1,18 @@
-#include <stdio.h>
+// Ejercicio 4
+// Realizado por: Abigail Quinga
 
-int main() {
+#include <stdio.h> //Libreria 
+
+int main() { //Inico
     double x;
-
+//Define el numero x
     printf("Ingrese un numero: ");
     scanf("%lf", &x);
-
-    if (x >= 0 && x <= 10) {
+// if es la primera condicion que se revisa
+    if (x >= 0 && x <= 10) { // El 0 debe de estar entre 0 y 10
         printf("El numero pertenece al intervalo\n");
-    } else {
+ // else es lo que pasa cuando la condicion de arriba no se cumplio
+    } else { // Si no esta, entonces no pertenece
         printf("El numero no pertenece al intervalo\n");
     }
-    return 0;
-}
+} //Fin
