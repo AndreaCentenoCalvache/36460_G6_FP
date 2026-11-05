@@ -1,13 +1,20 @@
-#include <stdio.h>
-#include <math.h>
+// Ejercicio 2
+// Realizado por: Abigail Quinga
+#include <stdio.h> //Libreria
 
-int main() {
-    double x, resultado;
-
+int main() { //Inicio
+    double x, absoluto, resultado;
+    //Define el valor de x
     printf("Ingrese el valor de x: ");
     scanf("%lf", &x);
-
-    resultado = pow(fabs(x), 3);
+    //Saco el valos absoluto
+    if (x < 0) {
+        absoluto = -x;
+    } else {
+        absoluto = x;
+    }
+    //Elevar al cubo
+    resultado = absoluto * absoluto * absoluto;
+    //Resultado final
     printf("Resultado es: %.2f\n", resultado);
-    return 0;
 }
