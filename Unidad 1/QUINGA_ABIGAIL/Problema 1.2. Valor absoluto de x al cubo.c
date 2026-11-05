@@ -10,7 +10,7 @@ int main() { //Inicio
     //Saco el valos absoluto
     //El if es la condicion para la toma de decisiones, si es V ejecuta y si es F ignora este codigo
     if (x < 0) { 
-        absoluto = -x; //Si x es negativo, cambia de signo a positivo
+        absoluto = -x; //Si x es negativo, cambia de signo a positivo por el valor absoluto
     // El else se ejecuta unicamente cuando la condicion del if es F   
     } else {
         absoluto = x;// Si es positivo queda igual
