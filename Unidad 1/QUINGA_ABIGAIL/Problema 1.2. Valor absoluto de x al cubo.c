@@ -8,10 +8,12 @@ int main() { //Inicio
     printf("Ingrese el valor de x: ");
     scanf("%lf", &x);
     //Saco el valos absoluto
-    if (x < 0) {
-        absoluto = -x;
+    //El if es la condicion para la toma de decisiones, si es V ejecuta y si es F ignora este codigo
+    if (x < 0) { 
+        absoluto = -x; //Si x es negativo, cambia de signo a positivo
+    // El else se ejecuta unicamente cuando la condicion del if es F   
     } else {
-        absoluto = x;
+        absoluto = x;// Si es positivo queda igual
     }
     //Elevar al cubo
     resultado = absoluto * absoluto * absoluto;
