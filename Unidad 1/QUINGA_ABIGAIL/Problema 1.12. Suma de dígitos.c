@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main(void)
@@ -18,5 +19,4 @@ int main(void)
         }
         printf("Suma de digitos: %d\n", suma);
     }
-    return 0;
 }
