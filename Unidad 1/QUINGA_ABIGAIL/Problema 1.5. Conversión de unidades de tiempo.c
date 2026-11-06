@@ -8,10 +8,10 @@ int main() { //Inicio
 //Define la cantidad de segundos
     printf("Ingrese la cantidad de segundos: ");
     scanf("%d", &c);
-// if es la primera condicion que se revisa
+// if primera condicion a revisar
     if (c < 0) { // Si c es menor que cero no se pueden convertir 
         printf("El numero de segundos debe ser mayor o igual a cero\n");
-// else es lo que pasa cuando la condicion de arriba no se cumplio
+// else secumple si if no se cumplio
     } else { //Si c es mayor entonces se puede convertir
 // Sacamos los dias y le resto al total
         dias = c / 86400; 
@@ -22,7 +22,7 @@ int main() { //Inicio
 // Sacamos los minutos y los segundos que quedan
         minutos = c / 60;
         segundos = c - minutos * 60;
-//Se muestran los resultados 
+//Resultados
         printf("Dias: %d\n", dias);
         printf("Horas: %d\n", horas);
         printf("Minutos: %d\n", minutos);
