@@ -1,3 +1,5 @@
+//Ejercicio 16
+//Realizado por Abigail Quinga
 #include <stdio.h>
 
 int main(void)
@@ -20,5 +22,4 @@ int main(void)
         else
             printf("%d no es perfecto\n", n);
     }
-    return 0;
 }
