@@ -10,7 +10,7 @@ int main() { //Inicio
     scanf("%d", &x);
     printf("Ingrese el valor de y: ");
     scanf("%d", &y);
-    // if: es la primera condicion que se revisa
+    // if primera condicion a revisar
     if (y == 0) { // si y es 0 no se puede dividir
         printf("No es posible dividir entre cero\n");
     // else if solo se revisa si el if de arriba no se cumplio
