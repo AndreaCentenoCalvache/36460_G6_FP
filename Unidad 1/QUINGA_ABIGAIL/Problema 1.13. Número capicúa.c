@@ -22,5 +22,4 @@ int main(void)
         else
             printf("%d no es capicua\n", n);
     }
-    return 0;
 }
