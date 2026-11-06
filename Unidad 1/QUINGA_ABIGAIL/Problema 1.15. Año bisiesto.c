@@ -15,5 +15,4 @@ int main(void)
         else
             printf("%d no es bisiesto\n", anio);
     }
-    return 0;
 }
