@@ -6,8 +6,8 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main()//Inicio
+{//define las variables
     int op, n, i, j;
     int ant, act, sig;
     int k;
@@ -34,7 +34,7 @@ int main()
                 //Bucle de fila
                 for (i = 1; i <= n; i++)
                 {
-                    //Bucle de columna
+                 //Bucle de columna
                     for (j = 1; j <= n; j++)
                     {
                         printf("22");
@@ -48,11 +48,11 @@ int main()
                 printf("Ingrese n (n >= 1): ");
                 scanf("%d", &n);
 
-                if (n <= 0)
+                if (n <= 0)//primera condicion a cumplir
                 {
                     printf("Error: n debe ser >= 1\n");
                 }
-                else
+                else//segunda condicion a cumplir, si if no cumplio
                 {
                     ant = 0;
                     act = 1;
