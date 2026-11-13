@@ -14,7 +14,7 @@ int main()
 
     do
     {
-        printf("\nMENU\n");
+        printf("MENU\n");
         printf("1. Figura\n");
         printf("2. Serie\n");
         printf("3. Salir\n");
