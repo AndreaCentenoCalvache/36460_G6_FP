@@ -1,11 +1,11 @@
-// Realizado por Juli·n Hern·ndez
+// Realizado por Juli√°n Hern√°ndez
 // Fecha: 12/11/2026
-// Ejercicio: Men˙ de Figura y Serie Fibonacci
-// VersiÛn: CÛdigo fuente completo para compilar
+// Ejercicio: Men√∫ de Figura y Serie Fibonacci
+// Versi√≥n: C√≥digo fuente completo para compilar
 
 #include <stdio.h>
 
-// FunciÛn para dibujar un cuadrado
+// Funci√≥n para dibujar un cuadrado
 void dibujarCuadrado(int lado)
 {
     int fila, columna;
@@ -19,7 +19,7 @@ void dibujarCuadrado(int lado)
     }
 }
 
-// FunciÛn para imprimir la serie Fibonacci
+// Funci√≥n para imprimir la serie Fibonacci
 void imprimirFibonacci(int cantidadTerminos)
 {
     int a = 0;
@@ -47,7 +47,7 @@ int main()
 
     do
     {
-        printf("\n===== MENU PRINCIPAL =====\n");
+        printf("MENU PRINCIPAL\n");
         printf("1. Dibujar Figura (Cuadrado)\n");
         printf("2. Mostrar Serie Fibonacci\n");
         printf("3. Salir del programa\n");
@@ -57,7 +57,7 @@ int main()
         switch (opcion)
         {
             case 1:
-                printf("\n--- DIBUJO DE CUADRADO ---\n");
+                printf("CUADRADO\n");
                 do
                 {
                     printf("Ingrese el lado del cuadrado (mayor a 0): ");
@@ -69,7 +69,7 @@ int main()
                 break;
 
             case 2:
-                printf("\n--- SERIE FIBONACCI ---\n");
+                printf("SERIE FIBONACCI\n");
                 do
                 {
                     printf("Ingrese la cantidad de terminos (>= 1): ");
