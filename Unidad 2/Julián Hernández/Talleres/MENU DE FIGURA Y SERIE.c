@@ -1,7 +1,8 @@
 // Realizado por Julián Hernández
 // Fecha: 12/11/2026
+// Nrc: 36460
 // Ejercicio: Menú de Figura y Serie Fibonacci
-// Versión: Código fuente completo para compilar
+
 
 #include <stdio.h>
 
