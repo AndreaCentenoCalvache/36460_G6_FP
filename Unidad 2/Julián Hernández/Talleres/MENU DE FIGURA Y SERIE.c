@@ -5,15 +5,24 @@
 
 #include <stdio.h>
 
-// Función para dibujar un cuadrado
+// Función para dibujar un cuadrado hueco
 void dibujarCuadrado(int lado)
 {
     int fila, columna;
+
     for (fila = 1; fila <= lado; fila++)
     {
         for (columna = 1; columna <= lado; columna++)
         {
-            printf("*");
+            if (fila == 1 || fila == lado ||
+                columna == 1 || columna == lado)
+            {
+                printf("1");
+            }
+            else
+            {
+                printf(" ");
+            }
         }
         printf("\n");
     }
