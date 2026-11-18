@@ -1,4 +1,8 @@
-
+//      UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+ //INTEGRANTES:QUINGA ABIGAIL, HERNANDÉZ JULIÁN ,CENTENO ANDREA
+ //ASIGNATURA: FUNDAMENTOS DE PROGRAMACION
+ //CARRERA:ELECTRONICA Y AUTOMATIZACION
+ //NRC: 36460
 #include <stdio.h>
 
 // Define las funciones
@@ -103,14 +107,14 @@ void vector() {
 
     int tam;
 
-    do { //do while solicita que el tama�o sea menor o igual a cero y si no lo es, se seguira repitiendo
+    do { //do while solicita que el tamaño sea menor o igual a cero y si no lo es, se seguira repitiendo
 
-        printf("Ingrese el tama�o de los vectores:\n");
+        printf("Ingrese el tamaño de los vectores:\n");
         scanf("%d", &tam);
 
-        if(tam <= 0) {//if valida la condicion de que el tama�o sea menor o igual a cero
+        if(tam <= 0) {//if valida la condicion de que el tamaño sea menor o igual a cero
 
-            printf("Ingrese un numero mayor a 0 para el tama�o de su vector\n");
+            printf("Ingrese un numero mayor a 0 para el tamaño de su vector\n");
 
         }
 
