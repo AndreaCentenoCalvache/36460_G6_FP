@@ -25,22 +25,27 @@ int main()//Inicio
         {
             case 1:
             //Cuadrado
-                do
+                do // do while valida si ingreso un valor positivo
                 {
                     printf("Lado del cuadrado: ");
                     scanf("%d", &n);
                 } while (n <= 0);
 
-                //Bucle de fila
+                //recorre las filas, for externo
                 for (i = 1; i <= n; i++)
                 {
-                 //Bucle de columna
+                 //recorre las columnas, for interno
                     for (j = 1; j <= n; j++)
                     {
-                        printf("22");
+                        if(i == 1 || i == n || j == 1 || j == n)//verifica la ubicacion del borde
+                        {
+                          printf("22");
+                       }
+                       else
+                       {
+                           printf("\n");
+                        }
                     }
-                    printf("\n");
-                }
                 break;
 
             case 2:
@@ -65,16 +70,16 @@ int main()//Inicio
                     }
                     printf("\n");
                 }
-                break;
+                break;//fin del caso 2
 
             case 3:
             //Saliendo
                 printf("Saliendo...\n");
-                break;
+                break;//fin del caso 3
 
-            default:
+            default://cuando el usuario ingresa una opcion no dada dentro del menu 
                 printf("Opcion no valida\n");
-                break;
+                break;//fin del default
         }
     } while (op != 3);
 
