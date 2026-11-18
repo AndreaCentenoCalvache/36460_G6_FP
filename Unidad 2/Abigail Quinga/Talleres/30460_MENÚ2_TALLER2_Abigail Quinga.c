@@ -1,5 +1,5 @@
 //      UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
- //INTEGRANTES:QUINGA ABIGAIL, HERNAND…Z JULI¡N ,CENTENO ANDREA
+ //INTEGRANTES:QUINGA ABIGAIL, HERNAND√âZ JULI√ÅN ,CENTENO ANDREA
  //ASIGNATURA: FUNDAMENTOS DE PROGRAMACION
  //CARRERA:ELECTRONICA Y AUTOMATIZACION
  //NRC: 36460
@@ -57,11 +57,11 @@
             int tam;
 
             do{
-                printf("Ingrese el tamaÒo de los vectores: \n");
+                printf("Ingrese el tama√±o de los vectores: \n");
                 scanf("%d",&tam);
 
                 if(tam<= 0){
-                    printf("Ingrese un numero mayor a 0 para el tamaÒo de su vector\n");
+                    printf("Ingrese un numero mayor a 0 para el tama√±o de su vector\n");
                 }
             }while (tam<= 0);
 
