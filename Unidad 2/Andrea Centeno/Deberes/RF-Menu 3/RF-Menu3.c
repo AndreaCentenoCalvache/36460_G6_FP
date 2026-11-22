@@ -1,7 +1,7 @@
 /* Universidad de las Fuerzas Armadas-Espe
     Carrera: Electronica y Automatizaci�n
     Asignatura:Fundamentos de Programacion
-    Npmbre: Anfdrea Centeno
+    Npmbre: Andrea Centeno
     NRC:36460
 */
 
